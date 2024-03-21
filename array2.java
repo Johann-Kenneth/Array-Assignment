@@ -6,22 +6,15 @@ public class array2 {
 		// TODO Auto-generated method stub
 		String [] arr= {"aba","bcd","aaaa","cbc"};
 		String x="a";
-		boolean present=false;
-		for(int i=0;i<arr.length;i++) { {
+		for(int i=0;i<arr.length;i++)  {
 				if(arr[i].contains((x))) {
-					if(present) {
-						System.out.print(", ");
-					}
-					System.out.print(i);
-					present=true;
 					
-				}
-			}
-			if(!present) {
-				System.out.println("does not contain the letter");
-			}
+						System.out.print(i);
+					
 		}
 
 	}
 
+}
+	
 }
