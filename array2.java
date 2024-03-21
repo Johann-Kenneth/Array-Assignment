@@ -7,9 +7,8 @@ public class array2 {
 		String [] arr= {"aba","bcd","aaaa","cbc"};
 		String x="a";
 		for(int i=0;i<arr.length;i++)  {
-				if(arr[i].contains((x))) {
-					
-						System.out.print(i);
+		   if(arr[i].contains((x))) {
+			System.out.print(i);
 					
 		}
 
