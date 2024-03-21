@@ -6,19 +6,19 @@ public class array2 {
 		// TODO Auto-generated method stub
 		String [] arr= {"aba","bcd","aaaa","cbc"};
 		String x="a";
-		boolean found=false;
+		boolean present=false;
 		for(int i=0;i<arr.length;i++) { {
 				if(arr[i].contains((x))) {
-					if(found) {
+					if(present) {
 						System.out.print(", ");
 					}
 					System.out.print(i);
-					found=true;
+					present=true;
 					
 				}
 			}
-			if(!found) {
-				System.out.println("no words");
+			if(!present) {
+				System.out.println("does not contain the letter");
 			}
 		}
 
